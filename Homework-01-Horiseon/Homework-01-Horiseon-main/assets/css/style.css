@@ -4,7 +4,7 @@
     margin: 0;
   }
   
-
+/* background color */
   body {
       background-color: #2a607c;
     }
@@ -14,16 +14,22 @@
     padding: 20px;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
-    background-color: white;
+    background-color: #2a607c;
     color: #ffffff;
+    text-align: center;
   }
   
 
   h1 {
+    
+  text-align: center;
+  
     display: inline-block;
     font-size: 38px;
     color: white;
+    text-align: center;
   }
+  
   
 
   section {
@@ -158,4 +164,3 @@
     clear: both;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
-    text-align: center;

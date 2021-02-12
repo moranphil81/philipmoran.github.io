@@ -33,7 +33,7 @@ h1 {
     font-weight: bold;
     line-height: 55px;
     padding: 0px 10px;
-}
+};
 
 
 
@@ -214,7 +214,7 @@ input[type=text], textarea {
 
 }
 
-/* for screen 980px and larger */
+
 @media screen and (max-width: 980px){
     .nav-contents{
         width: 75%;
