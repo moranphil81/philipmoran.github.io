@@ -1,0 +1,124 @@
+
+#Game {     
+    border: 10px;
+    display: none ;  
+
+}
+#ending {     
+    border: 10px;
+    display: none ;  
+    
+}
+body {
+    background:lightblue ;
+    color: black;
+    font-size: 15px;
+  
+}
+#tracker {
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+}
+#start {
+    background-color: lightblue;
+    margin-left: 25%;
+    padding: 12px 22px;
+    font-size: 20px;
+    color: white;
+}
+#questionsDiv {
+    margin: 20px;
+}
+/* div#index0{
+    display:none ;
+
+} */
+
+div#index1{
+    display:none ;
+
+} 
+ div#index2{
+    display:none ;
+
+} 
+div#index3{
+    display:none ;
+
+}
+
+
+
+
+
+
+
+
+button {
+    border-radius: 8px;
+}
+
+
+textarea {
+    width: 90%;
+    margin: 20px;
+}
+
+
+
+
+
+
+label {
+    margin-right: 10px;
+}
+input {
+    margin-bottom: 20px;
+    width: 50%;
+    border: 1px solid lightgray;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+li {
+    background-color: lightblue;
+    margin-top: 8px;
+    padding: 7px 13px;
+    width: 90%;
+    font-size: 18px;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+body {
+    max-width: 786px;
+}
+
+
+
+
+a {
+margin-left: 20%;
+}
+
+
+
+
+
+
+
