@@ -8,10 +8,13 @@ html{
 body{
     background-color:lightblue;
     background-repeat: repeat;
+    style
+
 }
 
 .nav{
     background-color:lightblue;
+    font:black;
 }
 
 .nav-contents{
@@ -26,7 +29,7 @@ body{
 
 h1 {
     
-    background: lightblue
+    background-color= white;
 
     font-family: 'Arvo', serif;
     font-size: 30px;
@@ -128,7 +131,7 @@ p, .contact{
     width: 200px;
     
     background:lightblue
-    color: lightblue;
+=
     font-weight: bold;
     text-align: center;
 }

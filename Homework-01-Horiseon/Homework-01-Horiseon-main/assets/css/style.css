@@ -9,7 +9,7 @@
       background-color: #2a607c;
     }
   
-
+/* Font white,font,text align background color */
   header {
     padding: 20px;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -158,9 +158,11 @@
     font-size: 36px;
   }
   
-
+/* Footer to white font and pad and center */
   footer {
     padding: 10px;
     clear: both;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
+color: white;
+text-align: center;
