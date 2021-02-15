@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -63,8 +64,8 @@
   }
   
 
-  .digit {
-    height: 65px;
+  .hero {
+    height: 600px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
@@ -127,16 +128,7 @@
     margin: 10px auto;
     max-width: 150px;
   }
-.di   
-{margin-bottom: 30px;
-padding: 30px;
-height: 300px;
-font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-background-color:2589bd;
-color: #ffffff;
-
-
-} 
+  
 
   .search-engine-optimization,
   .online-reputation-management,
