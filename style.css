@@ -18,17 +18,23 @@ body {
 
 header {
   margin-bottom: 1em;
-}
-
-h1,
-h2 {
-  margin-bottom: 0.5em;
-}
-
-hr {
-  margin: 1em 0;
-}
-
-footer {
   margin-top: 1em;
+}
+
+h1 {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+h2 {  
+margin-bottom: 1em;
+margin-top: 1em;
+}
+
+
+address {
+  margin-top: 13em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+  font-style: normal;
+  
 }
