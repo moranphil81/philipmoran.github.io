@@ -1,40 +1,227 @@
-* {
+html {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
- background-color: lightblue;
 }
 
-html {
-  font-size: 100%;
-}
+
+
 
 body {
-
-  color: #111;
+  background-image: url("Screen\ Shot\ 2020-11-29\ at\ 12.02.26\ PM.png");
+  background-repeat: repeat;
+  color: white;
   text-align: center;
-  background-color: lightblue;
 }
 
-header {
-  margin-bottom: 1em;
-  margin-top: 1em;
+
+div.a {
+  text-align: center;
+  color: white;
+}
+
+div.content {
+  text-align: center;   
+}
+
+.nav-contents {
+  max-width: 900px;
+  margin: auto;
+  height: 55px;
+color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+a {
+color: white;
 }
 
 h1 {
-  margin-bottom: 1em;
-  margin-top: 1em;
+    font-family: 'Arvo', serif;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 55px;
+  padding: 0px 10px;
+  color:white;
 }
-h2 {  
-margin-bottom: 1em;
-margin-top: 1em;
+
+.phil {
+  max-height: 250px;
+  text-align: right;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
 }
 
 
-address {
-  margin-top: 13em;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-  "Lucida Sans", Arial, sans-serif;
-  font-style: normal;
+.topnav {
+  width: 500px;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+
+.topnav {
+  background: white;
+}
+
+
+
+.topnav a.icon {
+  display: none;
+}
+
+
+
+
+.container {
+  max-width: 980px;
+  padding: 20px 20px;
+  background: blue;
+  margin: 20px auto;
+
+}
+
+h2 {
+  font-family: 'Arvo', serif;
+  font-size: 30px;
+  line-height: 2em;
+  font-weight: bold;
+color: white;
+  padding-bottom: .5em;
+  margin-bottom: .7em;
+  border-bottom: 3px solid;
+}
+
+p,
+.contact {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-left: 10px;
+}
+
+
+.about {
+  display: flex;
+}
+
+.pic {
+  width: 200px;
+  height: 200px;
+  align-self: baseline;
+}
+
+
+
+
+.port-pics {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+}
+
+.port-pics>div {
+  position: relative;
+  margin: 10px;
+}
+
+.port-pics p {
+  position: absolute;
+  bottom: 20px;
+  margin: 0px;
+  padding: 10px;
+  width: 200px;
+  background: lightblue;
+  font-weight: bold;
+  text-align: center;
+}
+
+.port-pics img {
+  width: 200px;
+  height: 200px;
+}
+
+
+.social {
+  margin-top: 10px;
+}
+
+.social a {
+  margin: 0px 30px;
+}
+
+input[type=text],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color:white;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+
+  display: table;
+  clear: both;
+}
+
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+  text-align: center;
+
+  border-top: 3px solid white;
   
+
+  justify-content: center;
+  flex-flow: column nowrap;
+}
+
+.footer>div {
+  margin: 10px;
+  line-height: .5em;
+
+}
+
+.credit a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+}
+
+.credit p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+
 }
