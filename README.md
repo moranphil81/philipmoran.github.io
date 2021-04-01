@@ -1,2 +1,3 @@
-Check out my projects on GH!
-If you have any questions email me at moranphil81@yahoo.com
+This website is a static HTML website using semantic tags and minimal CSS.
+It is currently hosted on Github Pages.
+https://moranphil81.github.io/philipmoran.github.io/
